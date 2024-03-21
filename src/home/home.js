@@ -4,17 +4,20 @@ import React from "react";
 import "./home.css";
 import Header from "../header/header";
 import Product from "../product/product";
+import { Link } from "react-router-dom";
 
 const Home = () => {
 	return (
 		<div className="home">
 			<div className="home-container">
 				<Header />
+				<Link to="https://www.primevideo.com/">
+					<img
+						className="home-image"
+						src="https://images-eu.ssl-images-amazon.com/images/G/02/digital/video/merch2016/Hero/Covid19/Generic/GWBleedingHero_ENG_COVIDUPDATE__XSite_1500x600_PV_en-GB._CB428684220_.jpg"
+						alt="Home-Img"></img>
+				</Link>
 
-				<img
-					className="home-image"
-					src="https://images-eu.ssl-images-amazon.com/images/G/02/digital/video/merch2016/Hero/Covid19/Generic/GWBleedingHero_ENG_COVIDUPDATE__XSite_1500x600_PV_en-GB._CB428684220_.jpg"
-					alt="Home-Img"></img>
 				<div className="home-row">
 					<Product
 						id="1"
