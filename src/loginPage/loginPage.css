@@ -27,12 +27,12 @@
 	padding: 20px;
 }
 
-h1 {
+.login-page-container h1 {
 	font-weight: 500;
 	margin-bottom: 20px;
 }
 
-h5 {
+.login-page-container h5 {
 	margin-bottom: 5px;
 }
 
@@ -43,7 +43,7 @@ h5 {
 	width: 98%;
 }
 
-p {
+.login-page-container p {
 	margin-top: 15px;
 	font-size: 12px;
 }
